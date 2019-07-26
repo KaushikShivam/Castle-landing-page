@@ -355,14 +355,14 @@ body {
   font-size: 1.4rem; }
 
 .lead {
-  font-weight: 400;
+  font-weight: 1.8rem;
   line-height: 1.21;
   font-size: 1.8rem; }
 
 .small {
   font-weight: 400;
   line-height: 1.17;
-  font-size: 1.2rem; }
+  font-size: 1.8rem; }
 
 .row {
   max-width: 122rem;
