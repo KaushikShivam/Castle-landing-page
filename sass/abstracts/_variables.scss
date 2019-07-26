@@ -1,11 +1,13 @@
-// font sizes
-$font-primary: 2.2rem;
+// TYPOGRAPHY
+
+//base font
+$font-primary: 1.4rem;
+
 
 //font weights
-$f-xl-light: 200;
+$f-thin: 100;
 $f-light: 300;
 $f-regular: 400;
-$f-semibold: 600;
 $f-bold: 700;
 $f-black: 900;
 
@@ -16,3 +18,14 @@ $grid-width: 122rem;
 
 $gutter-vertical: 6rem;
 $gutter-horizontal: 3rem;
+
+//Colors
+$color-default: #666666;
+$color-primary: #3498DB;
+$color-success: #2ECC71;
+$color-info: #17a2b8;
+$color-warning: #F5A623;
+$color-danger: #E74C3C;
+
+$color-white: #fff;
+$color-black: #000;

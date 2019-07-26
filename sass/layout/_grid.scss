@@ -5,7 +5,7 @@
 
   display: grid;
 
-  // define colums
+  // define colums -> 12 column grid
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: $gutter-horizontal;
 

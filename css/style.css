@@ -12,6 +12,61 @@ html {
 body {
   box-sizing: border-box; }
 
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.21;
+  color: #3498DB;
+  font-size: 1.4rem; }
+
+.h1 {
+  font-size: 5.1rem;
+  font-weight: 700;
+  line-height: 1.5; }
+
+.h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.4; }
+
+.h3 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.39; }
+
+.h4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.33; }
+
+.h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.27; }
+
+.h6 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.21; }
+
+.p {
+  font-weight: 400;
+  line-height: 1.21;
+  font-size: 1.4rem; }
+
+.lead {
+  font-weight: 400;
+  line-height: 1.21;
+  font-size: 1.8rem; }
+
+.small {
+  font-weight: 400;
+  line-height: 1.17;
+  font-size: 1.2rem; }
+
+.text-primary {
+  color: #3498DB; }
+
 .row {
   max-width: 122rem;
   margin: 0 auto;
