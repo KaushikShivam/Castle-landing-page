@@ -5,7 +5,6 @@
 // base
 @import 'base/base';
 @import 'base/colors';
-@import 'base/padding';
 @import 'base/typography';
 @import 'base/utilities';
 
@@ -14,3 +13,7 @@
 
 //layout
 @import 'layout/grid';
+
+//Utils
+@import 'utils/margin';
+@import 'utils/padding';
