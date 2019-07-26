@@ -3,7 +3,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: $f-regular;
   line-height: 1.21;
-  color: $color-primary;
+  color: $color-default;
   font-size: $font-primary;
 }
 
@@ -82,9 +82,4 @@ body {
 
 .font-weight-black {
   $f-black: 900;
-}
-
-// TEXT COLORS
-.text-primary {
-  color: $color-primary
 }
