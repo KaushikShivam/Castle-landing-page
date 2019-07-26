@@ -192,6 +192,126 @@ body {
 .text-black-darker {
   color: black; }
 
+.bg-default-light {
+  background-color: #454148; }
+
+.bg-default-lighter {
+  background-color: #5e5a62; }
+
+.bg-default-dark {
+  background-color: #121112; }
+
+.bg-default-darker {
+  background-color: black; }
+
+.bg-primary-light {
+  background-color: #5faee3; }
+
+.bg-primary-lighter {
+  background-color: #8bc4ea; }
+
+.bg-primary-dark {
+  background-color: #217dbb; }
+
+.bg-primary-darker {
+  background-color: #196090; }
+
+.bg-secondary-light {
+  background-color: #868e96; }
+
+.bg-secondary-lighter {
+  background-color: #a1a8ae; }
+
+.bg-secondary-dark {
+  background-color: #545b62; }
+
+.bg-secondary-darker {
+  background-color: #3d4246; }
+
+.bg-success-light {
+  background-color: #54d98c; }
+
+.bg-success-lighter {
+  background-color: #7ee2a8; }
+
+.bg-success-dark {
+  background-color: #25a25a; }
+
+.bg-success-darker {
+  background-color: #1b7943; }
+
+.bg-info-light {
+  background-color: #1fc8e3; }
+
+.bg-info-lighter {
+  background-color: #4cd3e9; }
+
+.bg-info-dark {
+  background-color: #117a8b; }
+
+.bg-info-darker {
+  background-color: #0c525d; }
+
+.bg-warning-light {
+  background-color: #f7ba54; }
+
+.bg-warning-lighter {
+  background-color: #f9cd85; }
+
+.bg-warning-dark {
+  background-color: #db8c0a; }
+
+.bg-warning-darker {
+  background-color: #aa6d08; }
+
+.bg-danger-light {
+  background-color: #ed7669; }
+
+.bg-danger-lighter {
+  background-color: #f29f97; }
+
+.bg-danger-dark {
+  background-color: #d62c1a; }
+
+.bg-danger-darker {
+  background-color: #a82315; }
+
+.bg-muted-light {
+  background-color: #868e96; }
+
+.bg-muted-lighter {
+  background-color: #a1a8ae; }
+
+.bg-muted-dark {
+  background-color: #545b62; }
+
+.bg-muted-darker {
+  background-color: #3d4246; }
+
+.bg-muted-light {
+  background-color: #868e96; }
+
+.bg-muted-lighter {
+  background-color: #a1a8ae; }
+
+.bg-muted-dark {
+  background-color: #545b62; }
+
+.bg-muted-darker {
+  background-color: #3d4246; }
+
+.bg-black-light {
+  background-color: #1a1a1a; }
+
+.bg-black-lighter {
+  background-color: #333333; }
+
+.bg-black-dark {
+  background-color: black; }
+
+.bg-black-darker {
+  background-color: black; }
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;

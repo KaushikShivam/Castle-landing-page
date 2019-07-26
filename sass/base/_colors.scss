@@ -240,3 +240,164 @@
 .text-black-darker {
   color: darken($color-black, 20%);
 }
+
+// Background Color shades
+.bg-default-light {
+  background-color: lighten($color-default, 10%);
+}
+
+.bg-default-lighter {
+  background-color: lighten($color-default, 20%);
+}
+
+.bg-default-dark {
+  background-color: darken($color-default, 10%);
+}
+
+.bg-default-darker {
+  background-color: darken($color-default, 20%);
+}
+
+.bg-primary-light {
+  background-color: lighten($color-primary, 10%);
+}
+
+.bg-primary-lighter {
+  background-color: lighten($color-primary, 20%);
+}
+
+.bg-primary-dark {
+  background-color: darken($color-primary, 10%);
+}
+
+.bg-primary-darker {
+  background-color: darken($color-primary, 20%);
+}
+
+.bg-secondary-light {
+  background-color: lighten($color-secondary, 10%);
+}
+
+.bg-secondary-lighter {
+  background-color: lighten($color-secondary, 20%);
+}
+
+.bg-secondary-dark {
+  background-color: darken($color-secondary, 10%);
+}
+
+.bg-secondary-darker {
+  background-color: darken($color-secondary, 20%);
+}
+
+.bg-success-light {
+  background-color: lighten($color-success, 10%);
+}
+
+.bg-success-lighter {
+  background-color: lighten($color-success, 20%);
+}
+
+.bg-success-dark {
+  background-color: darken($color-success, 10%);
+}
+
+.bg-success-darker {
+  background-color: darken($color-success, 20%);
+}
+
+.bg-info-light {
+  background-color: lighten($color-info, 10%);
+}
+
+.bg-info-lighter {
+  background-color: lighten($color-info, 20%);
+}
+
+.bg-info-dark {
+  background-color: darken($color-info, 10%);
+}
+
+.bg-info-darker {
+  background-color: darken($color-info, 20%);
+}
+
+.bg-warning-light {
+  background-color: lighten($color-warning, 10%);
+}
+
+.bg-warning-lighter {
+  background-color: lighten($color-warning, 20%);
+}
+
+.bg-warning-dark {
+  background-color: darken($color-warning, 10%);
+}
+
+.bg-warning-darker {
+  background-color: darken($color-warning, 20%);
+}
+
+.bg-danger-light {
+  background-color: lighten($color-danger, 10%);
+}
+
+.bg-danger-lighter {
+  background-color: lighten($color-danger, 20%);
+}
+
+.bg-danger-dark {
+  background-color: darken($color-danger, 10%);
+}
+
+.bg-danger-darker {
+  background-color: darken($color-danger, 20%);
+}
+
+.bg-muted-light {
+  background-color: lighten($color-muted, 10%);
+}
+
+.bg-muted-lighter {
+  background-color: lighten($color-muted, 20%);
+}
+
+.bg-muted-dark {
+  background-color: darken($color-muted, 10%);
+}
+
+.bg-muted-darker {
+  background-color: darken($color-muted, 20%);
+}
+
+.bg-muted-light {
+  background-color: lighten($color-muted, 10%);
+}
+
+.bg-muted-lighter {
+  background-color: lighten($color-muted, 20%);
+}
+
+.bg-muted-dark {
+  background-color: darken($color-muted, 10%);
+}
+
+.bg-muted-darker {
+  background-color: darken($color-muted, 20%);
+}
+
+.bg-black-light {
+  background-color: lighten($color-black, 10%);
+}
+
+.bg-black-lighter {
+  background-color: lighten($color-black, 20%);
+}
+
+.bg-black-dark {
+  background-color: darken($color-black, 10%);
+}
+
+.bg-black-darker {
+  background-color: darken($color-black, 20%);
+}
