@@ -1,0 +1,19 @@
+@function calculateColumn($colWidth, $gutter) {
+  // $fullColumnSize: 12;
+  // $colSize: $fullColumnSize / $colWidth;
+  // $gutterSize: $colSize - 1;
+  // @return calc(100% - #{$gutter} * #{$gutterSize} / #{$colSize});
+  // $value: (100% - $gutter) / 2;
+  // $value: 20%;
+  // @return 20%;
+  @return 300px;
+}
+
+// Col-6 
+// width - 6
+// 2rem;
+
+// colum size - 12 / 6 -> 2
+// 12 / 6 - > 2
+// 50% each
+// 100% / 2
