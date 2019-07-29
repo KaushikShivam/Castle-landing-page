@@ -1,89 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Castle Startup Landing Page</title>
-</head>
-<body>
-    <header>
-        <nav class="nav">
-            <div class="logo-box">
-                <div>
-                    <img src="" alt="Logo">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Castle Startup Landing Page</title>
+    </head>
+
+    <body>
+        <!-- HERO SECTION -->
+        <header>
+            <!-- NAVIGATION -->
+            <nav class="nav">
+                <div class="logo-box">
+                    <div>
+                        <img src="./img/logo.png" alt="Logo">
+                    </div>
+                    <div>
+                        <p class="font-weight-bold">Castle</p>
+                        <p>Startup Landing Page</p>
+                    </div>
                 </div>
-                <div>
-                    <p class="font-weight-bold">Castle</p>
-                    <p>Startup Landing Page</p>
+                <div class="nav__list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Get Started</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- HERO SECTION -->
+            <div class="hero">
+                <div class="hero__content">
+                    <h1>Build stunning websites & apps.</h1>
+                    <p>Create live segments and target the right people for messages based on their behaviors.</p>
+                    <div class="hero__cta">
+                        <a href="#">Get Started</a>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="/img/hero-bg.png" alt="Hero background image">
                 </div>
             </div>
-            <div class="nav__list">
+        </header>
+
+        <main>
+            <!-- ABOUT SECTION -->
+            <div class="about">
+                <div class="about__left">
+                    <p>What is it about?</p>
+                    <p>Building a website for a startup that looks amazing is not a rocket science anymore. </p>
+                </div>
+                <div class="about__right">
+                    <p>Who is it for?</p>
+                    <p>Startups, small companies and teams, entrepreneurs and web developers.</p>
+                </div>
+            </div>
+
+            <div class="clients">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Stories</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Get Started</a></li>
+                    <li><img src="/img/client-1.png" alt="Client Logo"></li>
+                    <li><img src="/img/client-2.png" alt="Client Logo"></li>
+                    <li><img src="/img/client-3.png" alt="Client Logo"></li>
+                    <li><img src="/img/client-4.png" alt="Client Logo"></li>
+                    <li><img src="/img/client-5.png" alt="Client Logo"></li>
+                    <li><img src="/img/client-6.png" alt="Client Logo"></li>
                 </ul>
-            </div>  
-        </nav>
+            </div>
 
-        <div class="hero">
-            <div class="hero__content">
-                <h1>Build stunning websites & apps.</h1>
-                <p>Create live segments and target the right people for messages based on their behaviors.</p>
-                <div class="hero__cta">
-                    <a href="#">Get Started</a>
-                    <a href="#">Learn More</a>
+            <section class="features">
+                <div class="features__content">
+                    <h5>Features</h5>
+                    <h2>Easily find leads and customers</h1>
+                        <p>Send one-off and automated email, push, and in-app messages to people. Create better stories.
+                        </p>
+                        <div class="features__list">
+                            <div class="features__">
+                                <div class="features__item">
+                                    <h4>
+                                        <a href="#">
+                                            <img src="/img/compass.png" alt="Compass">
+                                            Acquire New Customers
+                                        </a>
+                                    </h4>
+                                    <p>Everything you need to start building – including open-source code, documentation
+                                    </p>
+                                </div>
+                                <div class="features__item">
+                                    <h4>
+                                        <a href="#">
+                                            <img src="/img/engage.png" alt="Compass">
+                                            Engage users
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div class="features__item">
+                                    <h4>
+                                        <a href="#">
+                                            <img src="/img/develop.png" alt="Compass">
+                                            Develop across platforms
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <p>Everything you need to start building – including open-source code, documentation </p>
+                            <p>Engage Users</p>
+                            <p>Develop across platforms</p>
+                        </div>
                 </div>
-            </div>
-            <div class="hero__image">
-                
-            </div>
-        </div>
-    </header>
+                <div class="features__img">
+                    <img src="" alt="Features Image">
+                </div>
+            </section>
 
-    <main>
-        <!-- ABOUT SECTION -->
-        <div class="about">
-            <div class="about__left">
-                <p>What is it about?</p>
-                <p>Building a website for a startup that looks amazing is not a rocket science anymore.  </p>
-            </div>
-            <div class="about__right">
-                <p>Who is it for?</p>
-                <p>Startups, small companies and teams, entrepreneurs and web developers.</p>
-            </div>
-        </div>
+            <section class="team">
+                <div class="team__img">
+                    <img src="/img/manage-conversation.png" alt="Manage Conversations">
+                    <p>Connect with customers and grow faster</p>
+                </div>
+                <div class="team__content">
+                    <h5>Team Inbox</h5>
+                    <h2>Manage conversations</h2>
+                    <p>One place to manage and respond to all conversations with leads and users. Receive messages from
+                        leads.</p>
+                    <div class="team__review">
+                        <p>“Great widgets. Great selection. Great design and easy to implement. Definitely a huge time
+                            saver for a web developer!”</p>
+                        <div>
+                            <div><img src="/img/person.png" alt="Viella Makakala"></div>
+                            <div>
+                                <h6>Viella Malkovich</h6>
+                                <p>Creative Director at Johnson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <div class="clients">
-            <ul>
-                <li><img src="" alt="Client Logo"></li>
-                <li><img src="" alt="Client Logo"></li>
-                <li><img src="" alt="Client Logo"></li>
-                <li><img src="" alt="Client Logo"></li>
-                <li><img src="" alt="Client Logo"></li>
-                <li><img src="" alt="Client Logo"></li>
-            </ul>
-        </div>
-
-        <section class="features">
-            <div class="features__content">
-                <h2>Easily find leads and customers</h1>
-                <p>Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+            <section class="communicate">
                 <div>
-                    <h4>Acquire new customers</h4>
-                    <p>Everything you need to start building – including open-source code, documentation </p>
-                    <p>Engage Users</p>
-                    <p>Develop across platforms</p>
+                    <div>
+                        <h5>Communicate Better</h5>
+                        <h2>Built for busy small teams</h2>
+                        <p>Three products that can be used independently or combined together for your company’s needs.
+                        </p>
+                        <a href="#">Get Started</a>
+                    </div>
+                    <div>
+                        <img src="/img/teams.png" alt="Teams to communicate better">
+                        <p>A better way to acquire new users</p>
+                    </div>
                 </div>
-            </div>
-            <div class="features__img">
-                <img src="" alt="Features Image">
-            </div>
-        </section>
+                <div>
+                    <div>
+                        <p><span>Subscriptions.</span> Foundation works with the tools and services you already use
+                            every day.
+                        </p>
+                        <a href="#">Learn more about subscriptions</a>
+                    </div>
 
-    </main>
-    
-</body>
+                    <div>
+                        <p><span>Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy to
+                            install SDKs for iOS and Android.
+
+                        </p>
+                        <a href="#">Get more info about hours</a>
+                    </div>
+
+                    <div>
+                        <p><span>Fast Communication.</span> We offer measures like 2FA and SSO to ensure
+                            the safety of your data.
+
+                        </p>
+                        <a href="#">Communication guidelines</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="visitors">
+                <div>
+                    <h5>Engage Visitors</h5>
+                    <h2>Understand your audience</h2>
+                    <p>Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
+                    <div>
+                        <a href="#">Get Started</a>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="/img/developers.png" alt="Developers">
+                        <h6>Developers</h6>
+                    </div>
+                    <div>
+                        <img src="/img/entertainment.png" alt="Entertainment">
+                        <h6>Entertainment</h6>
+                    </div>
+                    <div>
+                        <img src="/img/athletes.png" alt="Athletes">
+                        <h6>Developers</h6>
+                    </div>
+                    <div>
+                        <img src="/img/creators.png" alt="Creators">
+                        <h6>Developers</h6>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="reviews">
+                <div class="clients">
+                    <ul>
+                        <li><img src="/img/client-1.png" alt="Client Logo"></li>
+                        <li><img src="/img/client-2.png" alt="Client Logo"></li>
+                        <li><img src="/img/client-3.png" alt="Client Logo"></li>
+                        <li><img src="/img/client-4.png" alt="Client Logo"></li>
+                        <li><img src="/img/client-5.png" alt="Client Logo"></li>
+                        <li><img src="/img/client-6.png" alt="Client Logo"></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Trusted by the world’s most innovative businesses – big and small</h5>
+                    <p>“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing
+                        pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+                    <h6>Viella Malkovich</h6>
+                    <p>Creative Director at Johnson</p>
+                    <div><span></span><span></span><span></span></div>
+                </div>
+            </section>
+
+            <section class="hiring">
+                <h2>We’re hiring</h2>
+                <p>We’re a team of lifelong learners. We’re equal parts left and right brained.</p>
+                <a href="#">More About Company</a>
+                <div>
+                    <div>
+                        <h4>Front-End Developer</h4>
+                        <p>Los Angeles / Remote</p>
+                        <img src="/img/right-arrow.png" alt="right">
+                    </div>
+                    <div>
+                        <h4>Community Designer</h4>
+                        <p>New York / Remote</p>
+                        <img src="/img/right-arrow.png" alt="right">
+                    </div>
+                    <div>
+                        <h4>UX/UI Designer</h4>
+                        <p>New York / Remote</p>
+                        <img src="/img/right-arrow.png" alt="right">
+                    </div>
+                </div>
+            </section>
+
+            <section class="trial">
+                <div>
+                    <img src="/img/free-trial.png" alt="Free Trial">
+                </div>
+                <div>
+                    <h3>Start your free trial.</h3>
+                    <p>Get notified about company updates, news and blog posts. We hate spam.</p>
+                    <form action="POST">
+                        <input type="text" name="email" id="email">
+                        <button type="submit">Submit</button>
+                    </form>
+                    <p>Free 14-day trial · Easy setup · Cancel any time. <a href="#">Check out Terms of Use</a>.</p>
+                </div>
+            </section>
+
+        </main>
+
+    </body>
+
 </html>
