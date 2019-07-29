@@ -13,40 +13,42 @@
 
     <body>
         <!-- HERO SECTION -->
-        <header>
+        <header class="header d-flex flex-column">
             <!-- NAVIGATION -->
-            <nav class="nav container d-flex justify-content-between">
+            <nav class="nav container d-flex justify-content-between align-items-center py-1">
                 <div class="logo-box d-flex">
                     <div>
                         <img src="./img/logo.png" alt="Logo">
                     </div>
                     <div class="d-flex flex-column justify-content-center ml-1">
-                        <p class="">Castle</p>
+                        <p class="font-weight-bold">Castle</p>
                         <p>Startup Landing Page</p>
                     </div>
                 </div>
                 <div class="nav__list">
-                    <ul class="d-flex justify-content-between align-items-center">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Stories</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Get Started</a></li>
+                    <ul class="d-flex">
+                        <li class="ml-2"><a href=" #">Home</a></li>
+                        <li class="ml-2"><a href=" #">Stories</a></li>
+                        <li class="ml-2"><a href=" #">Terms</a></li>
+                        <li class="ml-2"><a href=" #">Get Started</a></li>
                     </ul>
                 </div>
             </nav>
 
             <!-- HERO SECTION -->
-            <div class="hero">
-                <div class="hero__content">
-                    <h1>Build stunning websites & apps.</h1>
-                    <p>Create live segments and target the right people for messages based on their behaviors.</p>
-                    <div class="hero__cta">
-                        <a href="#">Get Started</a>
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-                <div class="hero__image">
-                    <img src="/img/hero-bg.png" alt="Hero background image">
+            <div class="hero hero--landing container d-flex flex-column justify-content-center">
+                <h1 class="hero__header">Build stunning websites & apps.</h1>
+                <p class="font-weight-light text-default mt-3 hero__paragraph">Create live segments and target the
+                    right
+                    people
+                    for
+                    messages based on
+                    their
+                    behaviors.
+                </p>
+                <div class="hero__cta mt-7">
+                    <a class="btn btn-primary" href="#">Get Started</a>
+                    <a class="btn btn-secondary" href="#">Learn More</a>
                 </div>
             </div>
         </header>
@@ -289,7 +291,8 @@
                         </div>
                     </div>
 
-                    <p>Foundation is a website template for startups and small teams. It helps to build a website in no time</p>
+                    <p>Foundation is a website template for startups and small teams. It helps to build a website in no
+                        time</p>
 
                     <div>
                         <a href="#">

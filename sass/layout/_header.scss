@@ -1,0 +1,21 @@
+.header {
+  height: 100vh;
+  background: url(/img/Group.png);
+  background-position: right;
+
+  .hero {
+    height: 70%;
+
+    &__header {
+      width: 60%;
+      font-size: 8rem;
+    }
+
+    &__paragraph {
+      font-size: 2.4rem;
+      width: 35%;
+    }
+
+
+  }
+}

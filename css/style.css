@@ -353,7 +353,7 @@ body {
 .h1 {
   font-size: 5.1rem;
   font-weight: 700;
-  line-height: 1.5; }
+  line-height: 1.2; }
 
 .h2 {
   font-size: 3rem;
@@ -395,16 +395,30 @@ body {
   line-height: 1.17;
   font-size: 1.8rem; }
 
+.font-weight-thin {
+  font-weight: 100; }
+
+.font-weight-light {
+  font-weight: 300; }
+
+.font-weight-bold {
+  font-weight: 700; }
+
+.font-weight-black {
+  font-weight: 900; }
+
 .btn {
   border: 1px solid #6c757d;
-  background-color: #fff;
   font-size: 1.8rem;
   font-weight: 700;
-  padding: 1.7rem 3.4rem;
+  padding: 1.2rem 3.4rem;
   text-decoration: none;
   color: #3040C4;
   border-radius: 2px; }
-  .btn--blue {
+  .btn--primary {
+    background-color: #3040C4;
+    color: #fff; }
+  .btn--secondary {
     background-color: #3040C4;
     color: #fff; }
 
@@ -554,6 +568,22 @@ body {
         width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
       .container .row .col-xl-12 {
         width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
+
+.header {
+  height: 100vh;
+  background: url(/img/Group.png);
+  background-position: right; }
+  .header .hero {
+    height: 70%; }
+    .header .hero__header {
+      width: 60%;
+      font-size: 8rem; }
+    .header .hero__paragraph {
+      font-size: 2.4rem;
+      width: 35%; }
+
+.nav {
+  color: #3040C4; }
 
 .d-flex {
   display: flex; }

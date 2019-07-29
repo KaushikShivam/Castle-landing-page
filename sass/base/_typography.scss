@@ -11,7 +11,7 @@ body {
 .h1 {
   font-size: $font-h1;
   font-weight: $f-bold;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .h2 {
@@ -65,21 +65,21 @@ body {
 
 // Font weights
 .font-weight-thin {
-  $f-thin: 100;
+  font-weight: $f-thin;
 }
 
 .font-weight-light {
-  $f-light: 300;
+  font-weight: $f-light;
 }
 
 .font-weight-regular {
-  $f-regular: 400;
+  $ffont-weight: $f-regular;
 }
 
 .font-weight-bold {
-  $f-bold: 700;
+  font-weight: $f-bold;
 }
 
 .font-weight-black {
-  $f-black: 900;
+  font-weight: $f-black;
 }
