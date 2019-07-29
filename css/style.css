@@ -401,6 +401,9 @@ body {
 .font-weight-light {
   font-weight: 300; }
 
+.font-weight-regular {
+  font-weight: 400; }
+
 .font-weight-bold {
   font-weight: 700; }
 
@@ -408,19 +411,18 @@ body {
   font-weight: 900; }
 
 .btn {
-  border: 1px solid #6c757d;
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1.7rem;
   padding: 1.2rem 3.4rem;
   text-decoration: none;
   color: #3040C4;
-  border-radius: 2px; }
+  border-radius: 2px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
   .btn--primary {
     background-color: #3040C4;
     color: #fff; }
   .btn--secondary {
-    background-color: #3040C4;
-    color: #fff; }
+    background-color: #fff;
+    color: #3040C4; }
 
 .hr-light {
   border: none;
@@ -573,6 +575,10 @@ body {
   height: 100vh;
   background: url(/img/Group.png);
   background-position: right; }
+  .header .logo-box__title {
+    font-size: 1.7rem; }
+  .header .logo-box__subtitle {
+    font-size: 1.5rem; }
   .header .hero {
     height: 70%; }
     .header .hero__header {
