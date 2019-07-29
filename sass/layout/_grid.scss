@@ -1,162 +1,75 @@
-.row {
-
+.container {
   max-width: $grid-width;
+  width: 100%;
   margin: 0 auto;
 
-  // give margin bottom to every row execpt last child
-  &:not(:last-child) {
-    margin-bottom: $gutter-vertical;
-  }
+  .row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
 
-  @include clearfix;
-
-  // Select every child element of row that has a class starting with 'row'
-  [class^='col-'] {
-    // float all child elements to left
-    float: left;
-
-    background-color: orangered;
-
-    //give a margin right to all columns except the last one
     &:not(:last-child) {
-      margin-right: $gutter-horizontal;
+      margin-bottom: $gutter-vertical;
     }
+
+    [class^='col-'] {
+      background-color: orangered;
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+    }
+
+    // Column code
+    .col-1 {
+      @include calculateColWidth($gutter-horizontal, 1);
+    }
+
+    .col-2 {
+      @include calculateColWidth($gutter-horizontal, 2);
+    }
+
+    .col-3 {
+      @include calculateColWidth($gutter-horizontal, 3);
+    }
+
+    .col-4 {
+      @include calculateColWidth($gutter-horizontal, 4);
+    }
+
+    .col-5 {
+      @include calculateColWidth($gutter-horizontal, 5);
+    }
+
+    .col-6 {
+      @include calculateColWidth($gutter-horizontal, 6);
+    }
+
+    .col-7 {
+      @include calculateColWidth($gutter-horizontal, 7);
+    }
+
+    .col-8 {
+      @include calculateColWidth($gutter-horizontal, 8);
+    }
+
+    .col-9 {
+      @include calculateColWidth($gutter-horizontal, 9);
+    }
+
+    .col-10 {
+      @include calculateColWidth($gutter-horizontal, 10);
+    }
+
+    .col-11 {
+      @include calculateColWidth($gutter-horizontal, 11);
+    }
+
+    .col-12 {
+      @include calculateColWidth($gutter-horizontal, 12);
+    }
+
   }
 
-  // Column code
-
-  .col-6 {
-    width: percentage(100px / 50px);
-  }
-
-  // .col-1 {
-  //   // (100% - col - 1 * gutter) / 12
-  //   // width: calc((100% - 11 * #{$gutter-horizontal}) / 12);
-  //   width: calculateColumn(12, $gutter-horizontal);
-  // }
-
-  // .col-2 {
-  //   width: calculateColumn(2, $gutter-horizontal);
-  // }
-
-  // .col-1-of-2 {
-  //   width: calc((100% - #{$gutter-horizontal}) / 2);
-  // }
-
-  // .col-1-of-3 {
-  //   width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
-  // }
-
-  // .col-2-of-3 {
-  //   width: calc(2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
-  // }
-
-  // .col-1-of-4 {
-  //   width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
-  // }
-
-  // .col-2-of-4 {
-  //   width: calc(2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
-  // }
-
-  // .col-3-of-4 {
-  //   width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
-  // }
 
 }
-
-
-// (100% / 12 * 12) * 2 ->size 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .container {
-//   width: 100%;
-//   max-width: 1100px;
-//   margin: 0 auto;
-
-//   @include clearfix;
-
-//   .row {
-//     @include clearfix;
-//   }
-
-//   [class*='col-'] {
-//     width: 100%;
-//     float: left;
-//     min-height: 1px;
-//   }
-
-//   .col {
-//     padding: 1.6rem;
-//     margin: 8px;
-//     background: gray;
-//     border-radius: 3px;
-//     box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
-//     color: black;
-//     text-align: center;
-//     font-size: 1.6rem;
-//   }
-
-
-//   .col-1 {
-//     width: 8.33333%;
-//   }
-
-//   .col-2 {
-//     width: 16.66667%;
-//   }
-
-//   .col-3 {
-//     width: 25%;
-//   }
-
-//   .col-4 {
-//     width: 33.33333%;
-//   }
-
-//   .col-5 {
-//     width: 41.66667%;
-//   }
-
-//   .col-6 {
-//     width: 50%;
-//   }
-
-//   .col-7 {
-//     width: 58.33333%;
-//   }
-
-//   .col-8 {
-//     width: 66.66667%;
-//   }
-
-//   .col-9 {
-//     width: 75%;
-//   }
-
-//   .col-10 {
-//     width: 83.33333%;
-//   }
-
-//   .col-11 {
-//     width: 91.66667%;
-//   }
-
-//   .col-12 {
-//     width: 100%;
-//   }
-
-
-// }

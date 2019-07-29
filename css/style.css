@@ -451,22 +451,45 @@ body {
 .align-self-stretch {
   align-items: stretch; }
 
-.row {
+.container {
   max-width: 122rem;
+  width: 100%;
   margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 6rem; }
-  .row::after {
-    content: '';
-    display: table;
-    clear: both; }
-  .row [class^='col-'] {
-    float: left;
-    background-color: orangered; }
-    .row [class^='col-']:not(:last-child) {
-      margin-right: 3rem; }
-  .row .col-6 {
-    width: 200%; }
+  .container .row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%; }
+    .container .row:not(:last-child) {
+      margin-bottom: 2rem; }
+    .container .row [class^='col-'] {
+      background-color: orangered;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+    .container .row .col-1 {
+      width: calc(((100% - ((12 / 1) * 2rem)) / 12) * 1); }
+    .container .row .col-2 {
+      width: calc(((100% - ((12 / 2) * 2rem)) / 12) * 2); }
+    .container .row .col-3 {
+      width: calc(((100% - ((12 / 3) * 2rem)) / 12) * 3); }
+    .container .row .col-4 {
+      width: calc(((100% - ((12 / 4) * 2rem)) / 12) * 4); }
+    .container .row .col-5 {
+      width: calc(((100% - ((12 / 5) * 2rem)) / 12) * 5); }
+    .container .row .col-6 {
+      width: calc(((100% - ((12 / 6) * 2rem)) / 12) * 6); }
+    .container .row .col-7 {
+      width: calc(((100% - ((12 / 7) * 2rem)) / 12) * 7); }
+    .container .row .col-8 {
+      width: calc(((100% - ((12 / 8) * 2rem)) / 12) * 8); }
+    .container .row .col-9 {
+      width: calc(((100% - ((12 / 9) * 2rem)) / 12) * 9); }
+    .container .row .col-10 {
+      width: calc(((100% - ((12 / 10) * 2rem)) / 12) * 10); }
+    .container .row .col-11 {
+      width: calc(((100% - ((12 / 11) * 2rem)) / 12) * 11); }
+    .container .row .col-12 {
+      width: calc(((100% - ((12 / 12) * 2rem)) / 12) * 12); }
 
 .ml-1 {
   margin-left: 1rem; }
