@@ -1,8 +1,15 @@
 .btn {
     border: 1px solid $color-secondary;
-    background-color: white;
-    padding: 1rem;
-    text-transform: uppercase;
+    background-color: $color-white;
+    font-size: 1.8rem;
+    font-weight: $f-bold;
+    padding: 1.7rem 3.4rem;
     text-decoration: none;
-    color: $color-secondary;
+    color: $color-website;
+    border-radius: 2px;
+
+    &--blue {
+        background-color: $color-website;
+        color: $color-white
+    }
 }

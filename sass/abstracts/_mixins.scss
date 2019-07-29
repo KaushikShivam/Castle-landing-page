@@ -17,3 +17,31 @@
 @mixin calculateColWidth($gutterWidth, $colSize) {
   width: calc(((100% - ((12 / #{$colSize}) * #{$gutterWidth})) / 12) * #{$colSize});
 }
+
+@mixin respond($breakpoint) {
+	@if $breakpoint == small {
+		@media (min-width: 36em) {
+      
+			//576px
+			@content;
+		}
+	}
+	@if $breakpoint == medium {
+		@media (min-width: 48em) {
+			//768px
+			@content;
+		}
+	}
+	@if $breakpoint == large {
+		@media (min-width: 62em) {
+			//992px
+			@content;
+		}
+	}
+	@if $breakpoint == x-large {
+		//1200px
+		@media (min-width: 75em) {
+			@content;
+		}
+	}
+}
