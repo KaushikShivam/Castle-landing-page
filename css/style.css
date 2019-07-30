@@ -756,15 +756,13 @@ button {
 
 .header {
   height: 100vh;
-  background: #F3C6BD;
+  background: #F3C6BD url(../img/Group.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover; }
   @media (max-width: 48em) {
     .header {
-      height: fit-content; } }
-  @media (max-width: 48em) {
-    .header {
+      height: fit-content;
       background: url(../img/Group.png); } }
   .header .logo-box__title {
     font-size: 1.7rem; }

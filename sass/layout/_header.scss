@@ -3,17 +3,15 @@
 
   @include respond(medium) {
     height: fit-content;
+    background: url(../img/Group.png);
   }
 
-  background: $color-website-secondary;
+  background: $color-website-secondary url(../img/Group.png);
 
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
 
-  @include respond(medium) {
-    background: url(../img/Group.png);
-  }
 
   .logo-box {
     &__title {
