@@ -17,10 +17,11 @@ body {
   box-sizing: border-box;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
+  color: $color-muted;
 }

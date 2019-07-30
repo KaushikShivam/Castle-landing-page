@@ -26,7 +26,8 @@ ul {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #6c757d; }
 
 .text-default {
   color: #2B292D; }
