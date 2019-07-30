@@ -88,6 +88,10 @@
   background-color: $color-light;
 }
 
+.bg-bio {
+  background-color: $color-bio;
+}
+
 // TEXT Color shades
 .text-default-light {
   color: lighten($color-default, 10%);
