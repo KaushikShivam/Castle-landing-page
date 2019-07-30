@@ -1,13 +1,13 @@
 .features {
 
-    background-image: url(../../img/feature-bg.png);
+    background-image: url(../img/feature-bg.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: 5%;
 
     &__item {
 
-        &-detail{
+        &-detail {
             font-size: 1.3rem;
             line-height: 1.5;
             width: 80%;

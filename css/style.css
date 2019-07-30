@@ -461,7 +461,7 @@ button {
   text-align: center; }
 
 .features {
-  background-image: url(../../img/feature-bg.png);
+  background-image: url(../img/feature-bg.png);
   background-repeat: no-repeat;
   background-position-y: center;
   background-size: 5%; }
@@ -530,7 +530,7 @@ button {
 
 .reviews {
   border-bottom: 1px solid rgba(43, 41, 45, 0.2);
-  background: url(../../img/review-bg.png);
+  background: url(../img/review-bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 25rem; }
