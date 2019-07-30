@@ -97,6 +97,9 @@ a {
 .bg-bio {
   background-color: rgba(0, 162, 198, 0.1); }
 
+.bg-trials {
+  background-color: #F4F5F7; }
+
 .text-default-light {
   color: #454148; }
 
@@ -427,27 +430,34 @@ body {
     font-size: 2.2rem;
     font-weight: 300; }
 
-.btn {
+.btn,
+button {
   font-size: 1.7rem;
   padding: 1.2rem 3.4rem;
   text-decoration: none;
   color: #3040C4;
+  border: none;
+  cursor: pointer;
   border-radius: 2px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
-  .btn--primary {
+  .btn--primary,
+  button--primary {
     background-color: #3040C4;
     color: #fff; }
-  .btn--secondary {
+  .btn--secondary,
+  button--secondary {
     background-color: #fff;
     color: #3040C4; }
-  .btn--underlined {
+  .btn--underlined,
+  button--underlined {
     text-decoration: underline; }
 
 .card {
   padding: 2rem;
   border: 1px solid white;
   border-radius: 4px;
-  background-color: white; }
+  background-color: white;
+  text-align: center; }
 
 .features {
   background-image: url(../../img/feature-bg.png);
@@ -479,6 +489,18 @@ body {
   background-color: #3498DB;
   width: 100%;
   height: 3px; }
+
+.input {
+  font-size: 1.5rem;
+  padding: 1.1rem 3.4rem;
+  text-decoration: none;
+  color: #3040C4;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  outline: none;
+  flex-grow: 1; }
+  .input:focus, .input:active {
+    outline: none; }
 
 .reviews-box {
   display: block;

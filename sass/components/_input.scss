@@ -1,0 +1,16 @@
+.input {
+    font-size: 1.5rem;
+    padding: 1.1rem 3.4rem;
+    text-decoration: none;
+    color: $color-website-primary;
+    border: 1px solid rgba($color-default, .2);
+    border-radius: 2px;
+    outline: none;
+    flex-grow: 1;
+
+    
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}

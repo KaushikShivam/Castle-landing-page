@@ -1,8 +1,11 @@
-.btn {
+.btn,
+button {
     font-size: 1.7rem;
     padding: 1.2rem 3.4rem;
     text-decoration: none;
     color: $color-website-primary;
+    border: none;
+    cursor: pointer;
     border-radius: 2px;
     box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.10);
 

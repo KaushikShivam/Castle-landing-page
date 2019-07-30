@@ -92,6 +92,10 @@
   background-color: $color-bio;
 }
 
+.bg-trials {
+  background-color: $color-trial;
+}
+
 // TEXT Color shades
 .text-default-light {
   color: lighten($color-default, 10%);
