@@ -982,6 +982,9 @@ button {
   margin-top: 10rem;
   margin-bottom: 10rem; }
 
+.mt-auto {
+  margin-top: auto; }
+
 .pl-1 {
   padding-left: 1rem; }
 
