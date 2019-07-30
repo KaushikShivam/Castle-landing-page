@@ -34,6 +34,9 @@ a {
 .text-primary {
   color: #3498DB; }
 
+.text-website-primary {
+  color: #3040C4; }
+
 .text-secondary {
   color: #6c757d; }
 
@@ -429,6 +432,8 @@ body {
   .btn--secondary {
     background-color: #fff;
     color: #3040C4; }
+  .btn--underlined {
+    text-decoration: underline; }
 
 .features {
   background-image: url(../../img/feature-bg.png);
