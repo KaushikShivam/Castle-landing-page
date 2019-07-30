@@ -5,13 +5,14 @@
     height: fit-content;
   }
 
-  background: url(/img/Group.png);
+  background: $color-website-secondary;
+
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
 
   @include respond(medium) {
-    background: $color-website-secondary
+    background: url(/img/Group.png);
   }
 
   .logo-box {
