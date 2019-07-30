@@ -1,6 +1,17 @@
 .container {
   max-width: $grid-width;
   width: 100%;
+
+  @include respond(x-large) {
+    width: 90%;
+  }
+
+  // @include respond(medium) {
+  //   width: 88%;
+  // }
+
+
+
   margin: 0 auto;
 
   .row {

@@ -11,6 +11,18 @@ html {
   // This defines what 1rem is
   font-size: 62.5%; // 1rem = 10px; as 100% is 16px (default browser) 10px/16px = 62.5%
   max-width: $container-width;
+
+  @include respond(x-large) {
+    font-size: 58%;
+  }
+
+  @include respond(large) {
+    font-size: 55%;
+  }
+
+
+
+
 }
 
 body {

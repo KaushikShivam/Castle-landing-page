@@ -1,7 +1,9 @@
 .header {
   height: 100vh;
   background: url(/img/Group.png);
+  background-repeat: no-repeat;
   background-position: right;
+  background-size: cover;
 
   .logo-box {
     &__title {
@@ -27,6 +29,11 @@
     &__header {
       width: 60%;
       font-size: 8rem;
+
+      @include respond(large) {
+        font-size: 6rem
+      }
+
     }
 
     &__paragraph {

@@ -18,6 +18,12 @@
 html {
   font-size: 62.5%;
   max-width: 144rem; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 58%; } }
+  @media (max-width: 62em) {
+    html {
+      font-size: 55%; } }
 
 body {
   box-sizing: border-box; }
@@ -364,16 +370,25 @@ body {
   font-size: 5.1rem;
   font-weight: 700;
   line-height: 1.2; }
+  @media (max-width: 62em) {
+    .h1 {
+      font-size: 4rem; } }
 
 .h2 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.4; }
+  @media (max-width: 62em) {
+    .h2 {
+      font-size: 2.5rem; } }
 
 .h3 {
   font-size: 2.6rem;
   font-weight: 700;
   line-height: 1.39; }
+  @media (max-width: 62em) {
+    .h3 {
+      font-size: 2rem; } }
 
 .h4 {
   font-size: 2.2rem;
@@ -399,11 +414,17 @@ body {
   font-size: 2.1rem;
   line-height: 1.3;
   width: 80%; }
+  @media (max-width: 62em) {
+    .subtitle {
+      font-size: 1.6rem; } }
 
 .lead {
   font-weight: 1.8rem;
   line-height: 1.21;
   font-size: 1.8rem; }
+  @media (max-width: 62em) {
+    .lead {
+      font-size: 1.3rem; } }
 
 .small {
   font-weight: 400;
@@ -556,6 +577,9 @@ button {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto; }
+  @media (max-width: 75em) {
+    .container {
+      width: 90%; } }
   .container .row {
     display: flex;
     justify-content: flex-start;
@@ -591,7 +615,7 @@ button {
       width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
     .container .row .col-12 {
       width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); }
-    @media (min-width: 36em) {
+    @media (max-width: 36em) {
       .container .row .col-sm-1 {
         width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
       .container .row .col-sm-2 {
@@ -616,7 +640,7 @@ button {
         width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
       .container .row .col-sm-12 {
         width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
-    @media (min-width: 48em) {
+    @media (max-width: 48em) {
       .container .row .col-md-1 {
         width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
       .container .row .col-md-2 {
@@ -641,7 +665,7 @@ button {
         width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
       .container .row .col-md-12 {
         width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
-    @media (min-width: 62em) {
+    @media (max-width: 62em) {
       .container .row .col-lg-1 {
         width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
       .container .row .col-lg-2 {
@@ -666,7 +690,7 @@ button {
         width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
       .container .row .col-lg-12 {
         width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
-    @media (min-width: 75em) {
+    @media (max-width: 75em) {
       .container .row .col-xl-1 {
         width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
       .container .row .col-xl-2 {
@@ -695,7 +719,9 @@ button {
 .header {
   height: 100vh;
   background: url(/img/Group.png);
-  background-position: right; }
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; }
   .header .logo-box__title {
     font-size: 1.7rem; }
   .header .logo-box__subtitle {
@@ -709,6 +735,9 @@ button {
     .header .hero__header {
       width: 60%;
       font-size: 8rem; }
+      @media (max-width: 62em) {
+        .header .hero__header {
+          font-size: 6rem; } }
     .header .hero__paragraph {
       font-size: 2.4rem;
       width: 35%; }
