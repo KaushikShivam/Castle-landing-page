@@ -410,6 +410,12 @@ body {
 .font-weight-black {
   font-weight: 900; }
 
+.about {
+  background-color: #F4F5F7; }
+  .about p {
+    font-size: 2.2rem;
+    font-weight: 300; }
+
 .btn {
   font-size: 1.7rem;
   padding: 1.2rem 3.4rem;
