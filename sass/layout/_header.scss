@@ -1,12 +1,17 @@
 .header {
   height: 100vh;
 
-  @include respond(medium) {
-    height: fit-content;
-    background: url(../img/Group.png);
+
+  @include respond(large) {
+    background-image: url(../img/Group.png);
   }
 
-  background: $color-website-secondary url(../img/Group.png);
+  @include respond(medium) {
+    height: fit-content;
+    background-color: $color-website-secondary;
+    background-image: none;
+  }
+
 
   background-repeat: no-repeat;
   background-position: right;
