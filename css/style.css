@@ -480,6 +480,47 @@ body {
   width: 100%;
   height: 3px; }
 
+.reviews-box {
+  display: block;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  width: 70%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 2.6rem;
+  transition: all .3s;
+  font-weight: 700; }
+  .reviews-box:hover {
+    background-color: #3040C4;
+    color: #fff; }
+  .reviews-box--primary {
+    background-color: #3040C4;
+    color: #fff; }
+  .reviews-box--primary:hover {
+    background-color: #fff;
+    color: #3040C4; }
+  .reviews-box .right__arrow {
+    height: 10px;
+    margin-left: 5rem; }
+
+.reviews {
+  border-bottom: 1px solid rgba(43, 41, 45, 0.2);
+  background: url(../../img/review-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 25rem; }
+  .reviews__pagination .page {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgba(43, 41, 45, 0.2);
+    border-radius: 50%;
+    margin: 2px; }
+  .reviews__pagination .page--primary {
+    background-color: #3040C4; }
+
 .team {
   background-color: #FCF0E3; }
   .team__review {
