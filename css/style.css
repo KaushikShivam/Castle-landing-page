@@ -481,6 +481,10 @@ button {
   background-color: white;
   text-align: center; }
 
+@media (max-width: 62em) {
+  .clients__item {
+    margin-bottom: 3rem; } }
+
 .features {
   background-image: url(../../img/feature-bg.png);
   background-repeat: no-repeat;
@@ -722,10 +726,18 @@ button {
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover; }
+  @media (max-width: 48em) {
+    .header {
+      background: #F3C6BD; } }
   .header .logo-box__title {
     font-size: 1.7rem; }
   .header .logo-box__subtitle {
     font-size: 1.5rem; }
+  @media (max-width: 48em) {
+    .header .nav__list ul {
+      display: none; }
+    .header .nav__list > a {
+      display: block; } }
   .header .nav__links {
     font-weight: 900;
     font-size: 1.6rem;
@@ -738,12 +750,15 @@ button {
       @media (max-width: 62em) {
         .header .hero__header {
           font-size: 6rem; } }
+      @media (max-width: 48em) {
+        .header .hero__header {
+          width: 90%; } }
     .header .hero__paragraph {
       font-size: 2.4rem;
       width: 35%; }
-
-.nav {
-  color: #3040C4; }
+      @media (max-width: 48em) {
+        .header .hero__paragraph {
+          width: 75%; } }
 
 .d-flex {
   display: flex; }
@@ -810,6 +825,12 @@ button {
 
 .h-100 {
   height: 100%; }
+
+.d-none {
+  display: none; }
+
+.d-block {
+  display: block; }
 
 .ml-1 {
   margin-left: 1rem; }
