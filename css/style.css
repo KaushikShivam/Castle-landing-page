@@ -449,7 +449,6 @@ body {
     .container .row:not(:last-child) {
       margin-bottom: 3rem; }
     .container .row [class^='col-'] {
-      background-color: orangered;
       margin-left: 1.5rem;
       margin-right: 1.5rem; }
     .container .row .col-1 {
@@ -641,19 +640,31 @@ body {
   align-items: stretch; }
 
 .align-self-start {
-  align-items: flex-start; }
+  align-self: flex-start; }
 
 .align-self-end {
-  align-items: flex-end; }
+  align-self: flex-end; }
 
 .align-self-center {
-  align-items: center; }
+  align-self: center; }
 
 .align-self-baseline {
-  align-items: baseline; }
+  align-self: baseline; }
 
 .align-self-stretch {
-  align-items: stretch; }
+  align-self: stretch; }
+
+.justify-self-center {
+  justify-self: center; }
+
+.text-align-center {
+  text-align: center; }
+
+.w-100 {
+  width: 100%; }
+
+.h-100 {
+  height: 100%; }
 
 .ml-1 {
   margin-left: 1rem; }

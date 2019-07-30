@@ -51,21 +51,37 @@
 }
 
 .align-self-start {
-    align-items: flex-start;
+    align-self: flex-start;
 }
 
 .align-self-end {
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .align-self-center {
-    align-items: center;
+    align-self: center;
 }
 
 .align-self-baseline {
-    align-items: baseline;
+    align-self: baseline;
 }
 
 .align-self-stretch {
-    align-items: stretch;
+    align-self: stretch;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
 }
