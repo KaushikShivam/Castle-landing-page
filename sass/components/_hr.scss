@@ -1,10 +1,15 @@
-.hr-light {
+.hr--light {
     border: none;
     color: #ccc;
     background-color: #ccc;
-    height: 1px;
+    height: 2px;
+    width: 80%;
 }
 
-.hr-dark {
-
+.hr--blue {
+    border: none;
+    color: $color-website-primary;
+    background-color: $color-website-primary;
+    width: 80%;
+    height: 3px;
 }
