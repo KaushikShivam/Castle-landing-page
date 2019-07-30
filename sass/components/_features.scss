@@ -13,4 +13,17 @@
             width: 80%;
         }
     }
+
+    &__img {
+        @include respond(large) {
+            text-align: center;
+        }
+
+        img {
+            @include respond(large) {
+                width: 70%;
+            }
+        }
+    }
+
 }

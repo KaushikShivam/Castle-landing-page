@@ -12,18 +12,31 @@ body {
   font-size: $font-h1;
   font-weight: $f-bold;
   line-height: 1.2;
+
+  @include respond(large) {
+    font-size: 4rem;
+  }
+
 }
 
 .h2 {
   font-size: $font-h2;
   font-weight: $f-bold;
   line-height: 1.4;
+
+  @include respond(large) {
+    font-size: 2.5rem;
+  }
 }
 
 .h3 {
   font-size: $font-h3;
   font-weight: $f-bold;
   line-height: 1.39;
+
+  @include respond(large) {
+    font-size: 2rem;
+  }
 }
 
 .h4 {
@@ -49,18 +62,27 @@ body {
   font-weight: $f-regular;
   line-height: 1.21;
   font-size: $font-primary;
+
 }
 
 .subtitle {
   font-size: 2.1rem;
   line-height: 1.3;
   width: 80%;
+
+  @include respond(large) {
+    font-size: 1.6rem;
+  }
 }
 
 .lead {
   font-weight: $font-lead;
   line-height: 1.21;
   font-size: 1.8rem;
+
+  @include respond(large) {
+    font-size: 1.3rem;
+  }
 }
 
 .small {

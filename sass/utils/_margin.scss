@@ -269,3 +269,9 @@
 .mt-auto {
   margin-top: auto;
 }
+
+.mt-sm-1 {
+  @include respond(small) {
+    margin-top: 1rem;
+  }
+}

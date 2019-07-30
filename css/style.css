@@ -18,6 +18,12 @@
 html {
   font-size: 62.5%;
   max-width: 144rem; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 58%; } }
+  @media (max-width: 62em) {
+    html {
+      font-size: 55%; } }
 
 body {
   box-sizing: border-box; }
@@ -364,16 +370,25 @@ body {
   font-size: 5.1rem;
   font-weight: 700;
   line-height: 1.2; }
+  @media (max-width: 62em) {
+    .h1 {
+      font-size: 4rem; } }
 
 .h2 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.4; }
+  @media (max-width: 62em) {
+    .h2 {
+      font-size: 2.5rem; } }
 
 .h3 {
   font-size: 2.6rem;
   font-weight: 700;
   line-height: 1.39; }
+  @media (max-width: 62em) {
+    .h3 {
+      font-size: 2rem; } }
 
 .h4 {
   font-size: 2.2rem;
@@ -399,11 +414,17 @@ body {
   font-size: 2.1rem;
   line-height: 1.3;
   width: 80%; }
+  @media (max-width: 62em) {
+    .subtitle {
+      font-size: 1.6rem; } }
 
 .lead {
   font-weight: 1.8rem;
   line-height: 1.21;
   font-size: 1.8rem; }
+  @media (max-width: 62em) {
+    .lead {
+      font-size: 1.3rem; } }
 
 .small {
   font-weight: 400;
@@ -460,6 +481,10 @@ button {
   background-color: white;
   text-align: center; }
 
+@media (max-width: 62em) {
+  .clients__item {
+    margin-bottom: 3rem; } }
+
 .features {
   background-image: url(../img/feature-bg.png);
   background-repeat: no-repeat;
@@ -469,6 +494,12 @@ button {
     font-size: 1.3rem;
     line-height: 1.5;
     width: 80%; }
+  @media (max-width: 62em) {
+    .features__img {
+      text-align: center; } }
+  @media (max-width: 62em) {
+    .features__img img {
+      width: 70%; } }
 
 .hr--light {
   border: none;
@@ -551,11 +582,17 @@ button {
     font-size: 1.7rem; }
   .team .team__person {
     display: flex; }
+  @media (max-width: 62em) {
+    .team__img img {
+      width: 60%; } }
 
 .container {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto; }
+  @media (max-width: 75em) {
+    .container {
+      width: 90%; } }
   .container .row {
     display: flex;
     justify-content: flex-start;
@@ -591,32 +628,7 @@ button {
       width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
     .container .row .col-12 {
       width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); }
-    @media (min-width: 36em) {
-      .container .row .col-sm-1 {
-        width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
-      .container .row .col-sm-2 {
-        width: calc(((100% - ((12 / 2) * 3rem)) / 12) * 2); }
-      .container .row .col-sm-3 {
-        width: calc(((100% - ((12 / 3) * 3rem)) / 12) * 3); }
-      .container .row .col-sm-4 {
-        width: calc(((100% - ((12 / 4) * 3rem)) / 12) * 4); }
-      .container .row .col-sm-5 {
-        width: calc(((100% - ((12 / 5) * 3rem)) / 12) * 5); }
-      .container .row .col-sm-6 {
-        width: calc(((100% - ((12 / 6) * 3rem)) / 12) * 6); }
-      .container .row .col-sm-7 {
-        width: calc(((100% - ((12 / 7) * 3rem)) / 12) * 7); }
-      .container .row .col-sm-8 {
-        width: calc(((100% - ((12 / 8) * 3rem)) / 12) * 8); }
-      .container .row .col-sm-9 {
-        width: calc(((100% - ((12 / 9) * 3rem)) / 12) * 9); }
-      .container .row .col-sm-10 {
-        width: calc(((100% - ((12 / 10) * 3rem)) / 12) * 10); }
-      .container .row .col-sm-11 {
-        width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
-      .container .row .col-sm-12 {
-        width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
-    @media (min-width: 48em) {
+    @media (max-width: 48em) {
       .container .row .col-md-1 {
         width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
       .container .row .col-md-2 {
@@ -641,7 +653,7 @@ button {
         width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
       .container .row .col-md-12 {
         width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
-    @media (min-width: 62em) {
+    @media (max-width: 62em) {
       .container .row .col-lg-1 {
         width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
       .container .row .col-lg-2 {
@@ -666,7 +678,7 @@ button {
         width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
       .container .row .col-lg-12 {
         width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
-    @media (min-width: 75em) {
+    @media (max-width: 75em) {
       .container .row .col-xl-1 {
         width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
       .container .row .col-xl-2 {
@@ -691,15 +703,78 @@ button {
         width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
       .container .row .col-xl-12 {
         width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
+    @media (max-width: 26.5em) {
+      .container .row .col-xs-1 {
+        width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
+      .container .row .col-xs-2 {
+        width: calc(((100% - ((12 / 2) * 3rem)) / 12) * 2); }
+      .container .row .col-xs-3 {
+        width: calc(((100% - ((12 / 3) * 3rem)) / 12) * 3); }
+      .container .row .col-xs-4 {
+        width: calc(((100% - ((12 / 4) * 3rem)) / 12) * 4); }
+      .container .row .col-xs-5 {
+        width: calc(((100% - ((12 / 5) * 3rem)) / 12) * 5); }
+      .container .row .col-xs-6 {
+        width: calc(((100% - ((12 / 6) * 3rem)) / 12) * 6); }
+      .container .row .col-xs-7 {
+        width: calc(((100% - ((12 / 7) * 3rem)) / 12) * 7); }
+      .container .row .col-xs-8 {
+        width: calc(((100% - ((12 / 8) * 3rem)) / 12) * 8); }
+      .container .row .col-xs-9 {
+        width: calc(((100% - ((12 / 9) * 3rem)) / 12) * 9); }
+      .container .row .col-xs-10 {
+        width: calc(((100% - ((12 / 10) * 3rem)) / 12) * 10); }
+      .container .row .col-xs-11 {
+        width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
+      .container .row .col-xs-12 {
+        width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
+    @media (max-width: 36em) {
+      .container .row .col-sm-1 {
+        width: calc(((100% - ((12 / 1) * 3rem)) / 12) * 1); }
+      .container .row .col-sm-2 {
+        width: calc(((100% - ((12 / 2) * 3rem)) / 12) * 2); }
+      .container .row .col-sm-3 {
+        width: calc(((100% - ((12 / 3) * 3rem)) / 12) * 3); }
+      .container .row .col-sm-4 {
+        width: calc(((100% - ((12 / 4) * 3rem)) / 12) * 4); }
+      .container .row .col-sm-5 {
+        width: calc(((100% - ((12 / 5) * 3rem)) / 12) * 5); }
+      .container .row .col-sm-6 {
+        width: calc(((100% - ((12 / 6) * 3rem)) / 12) * 6); }
+      .container .row .col-sm-7 {
+        width: calc(((100% - ((12 / 7) * 3rem)) / 12) * 7); }
+      .container .row .col-sm-8 {
+        width: calc(((100% - ((12 / 8) * 3rem)) / 12) * 8); }
+      .container .row .col-sm-9 {
+        width: calc(((100% - ((12 / 9) * 3rem)) / 12) * 9); }
+      .container .row .col-sm-10 {
+        width: calc(((100% - ((12 / 10) * 3rem)) / 12) * 10); }
+      .container .row .col-sm-11 {
+        width: calc(((100% - ((12 / 11) * 3rem)) / 12) * 11); }
+      .container .row .col-sm-12 {
+        width: calc(((100% - ((12 / 12) * 3rem)) / 12) * 12); } }
 
 .header {
   height: 100vh;
   background: url(/img/Group.png);
-  background-position: right; }
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; }
+  @media (max-width: 48em) {
+    .header {
+      height: fit-content; } }
+  @media (max-width: 48em) {
+    .header {
+      background: #F3C6BD; } }
   .header .logo-box__title {
     font-size: 1.7rem; }
   .header .logo-box__subtitle {
     font-size: 1.5rem; }
+  @media (max-width: 48em) {
+    .header .nav__list ul {
+      display: none; }
+    .header .nav__list > a {
+      display: block; } }
   .header .nav__links {
     font-weight: 900;
     font-size: 1.6rem;
@@ -709,12 +784,21 @@ button {
     .header .hero__header {
       width: 60%;
       font-size: 8rem; }
+      @media (max-width: 62em) {
+        .header .hero__header {
+          font-size: 6rem; } }
+      @media (max-width: 48em) {
+        .header .hero__header {
+          width: 90%; } }
+    @media (max-width: 48em) {
+      .header .hero__cta {
+        margin-top: 4rem; } }
     .header .hero__paragraph {
       font-size: 2.4rem;
       width: 35%; }
-
-.nav {
-  color: #3040C4; }
+      @media (max-width: 48em) {
+        .header .hero__paragraph {
+          width: 75%; } }
 
 .d-flex {
   display: flex; }
@@ -781,6 +865,12 @@ button {
 
 .h-100 {
   height: 100%; }
+
+.d-none {
+  display: none; }
+
+.d-block {
+  display: block; }
 
 .ml-1 {
   margin-left: 1rem; }
@@ -984,6 +1074,10 @@ button {
 
 .mt-auto {
   margin-top: auto; }
+
+@media (max-width: 36em) {
+  .mt-sm-1 {
+    margin-top: 1rem; } }
 
 .pl-1 {
   padding-left: 1rem; }
