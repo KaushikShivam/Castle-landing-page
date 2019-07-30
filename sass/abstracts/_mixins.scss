@@ -19,6 +19,14 @@
 }
 
 @mixin respond($breakpoint) {
+  @if $breakpoint==x-small {
+    @media (max-width: 26.5em) {
+
+      //576px
+      @content;
+    }
+  }
+
   @if $breakpoint==small {
     @media (max-width: 36em) {
 

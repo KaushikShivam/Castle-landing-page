@@ -11,5 +11,11 @@
     display: flex;
   }
 
+  &__img img {
+    @include respond(large) {
+      width: 60%;
+    }
+  }
+
 
 }

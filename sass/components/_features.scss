@@ -7,10 +7,23 @@
 
     &__item {
 
-        &-detail{
+        &-detail {
             font-size: 1.3rem;
             line-height: 1.5;
             width: 80%;
         }
     }
+
+    &__img {
+        @include respond(large) {
+            text-align: center;
+        }
+
+        img {
+            @include respond(large) {
+                width: 70%;
+            }
+        }
+    }
+
 }

@@ -1,5 +1,10 @@
 .header {
   height: 100vh;
+
+  @include respond(medium) {
+    height: fit-content;
+  }
+
   background: url(/img/Group.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -25,7 +30,7 @@
         display: none;
       }
 
-      &__list > a{
+      &__list>a {
         display: block;
       }
     }
@@ -55,6 +60,12 @@
 
     }
 
+    &__cta {
+      @include respond(medium) {
+        margin-top: 4rem;
+      }
+    }
+
     &__paragraph {
       font-size: 2.4rem;
       width: 35%;
@@ -63,6 +74,7 @@
         width: 75%;
       }
     }
+
 
 
   }
