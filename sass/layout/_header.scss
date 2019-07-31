@@ -1,0 +1,81 @@
+.header {
+  height: 100vh;
+
+  @include respond(medium) {
+    height: fit-content;
+    background-color: $color-website-secondary;
+    background-image: none;
+  }
+
+  background-image: url(../img/Group.png);
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+
+
+  .logo-box {
+    &__title {
+      font-size: 1.7rem;
+    }
+
+    &__subtitle {
+      font-size: 1.5rem;
+    }
+  }
+
+  .nav {
+    @include respond(medium) {
+      &__list ul {
+        display: none;
+      }
+
+      &__list>a {
+        display: block;
+      }
+    }
+
+
+    &__links {
+      font-weight: $f-black;
+      font-size: 1.6rem;
+      color: $color-default;
+    }
+  }
+
+  .hero {
+    height: 70%;
+
+    &__header {
+      width: 60%;
+      font-size: 8rem;
+
+      @include respond(large) {
+        font-size: 6rem
+      }
+
+      @include respond(medium) {
+        width: 90%;
+      }
+
+    }
+
+    &__cta {
+      @include respond(medium) {
+        margin-top: 4rem;
+      }
+    }
+
+    &__paragraph {
+      font-size: 2.4rem;
+      width: 35%;
+
+      @include respond(medium) {
+        width: 75%;
+      }
+    }
+
+
+
+  }
+}

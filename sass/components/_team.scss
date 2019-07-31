@@ -1,0 +1,21 @@
+.team {
+  background-color: #FCF0E3;
+
+  &__review {
+    background-color: rgba($color-white, 0.7);
+    font-size: 1.7rem;
+  }
+
+  .team__person {
+
+    display: flex;
+  }
+
+  &__img img {
+    @include respond(large) {
+      width: 60%;
+    }
+  }
+
+
+}

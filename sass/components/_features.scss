@@ -1,0 +1,29 @@
+.features {
+
+    background-image: url(../img/feature-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 5%;
+
+    &__item {
+
+        &-detail {
+            font-size: 1.3rem;
+            line-height: 1.5;
+            width: 80%;
+        }
+    }
+
+    &__img {
+        @include respond(large) {
+            text-align: center;
+        }
+
+        img {
+            @include respond(large) {
+                width: 70%;
+            }
+        }
+    }
+
+}
