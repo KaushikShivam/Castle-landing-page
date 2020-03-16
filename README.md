@@ -99,13 +99,11 @@ Run ```npm start``` to run the script
 Run ```npm run build:css``` to run the build script
 
 ## Contact
-The project was done in collaboration with Rodolfo and Myself.
-
 You can contact me at:
-- [Email](shivamkaushikofficial@gmail.com)
-- [Linkedin](https://www.linkedin.com/in/shivam-kaushik-bb8162102/)
+
+- [Portfolio](https://www.shivamkaushik.com)
+- [Email](mailto:shivamkaushikofficial@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/kshivamdev/)
 - [Twitter](https://twitter.com/kShivamDev)
 - [Medium](https://medium.com/@shivamkaushikofficial)
-
-You can contact Rodolfo at:
-[Email](acosta.rodolfo.rca@gmail.com)
+- [Angellist](https://angel.co/kshivamdev)
